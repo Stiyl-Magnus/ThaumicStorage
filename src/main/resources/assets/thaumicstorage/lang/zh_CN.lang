@@ -1,0 +1,54 @@
+#Traslated by Stiyl-Magnus
+
+#	Item Localization
+item.arcane_coal.name=奥术煤炭
+item.arcane_coalS.name=充能奥术煤炭
+item.arcane_coal_block.name=奥术煤炭块
+item.arcane_torch_dispenser.name=奥法火炬
+
+#	Block Localization
+block.arcane_coal_block.name=奥数煤炭块
+
+#	Thaumcraft Stuff
+tc.research_category.ThaumicStorage=神秘存储
+
+#	GUI
+itemGroup.tabCreativeTS=神秘存储
+
+
+#  
+# Special formatting codes:
+# <BR> or <BR/>         Paragraph break (<BR/> is included for people using XML for their localization)
+# <LINE> or <LINE/>     Insert a fancy linebreak between sections of text.
+# <IMG>...</IMG>  Insert a centered image into text. Parameters are separated by ':' and are:
+#                    - mod resource location name
+#                    - png file location (assumed to be a 256x256 texture, a sub-image will be grabbed from this png as specified below)
+#                    - x location of sub-image in png
+#                    - y location of sub-image in png
+#                    - x size of sub-image (255 if full x size of png must be used)
+#                    - y size of sub-image (255 if full y size of png must be used)
+#                    - scaling - 1.0 for normal 256x256 images, or smaller for proportionately smaller .png files (a 16x16 image will be 0.0625)   
+#               Examples: 
+#                   <IMG>thaumcraft:textures/gui/gui_researchbook.png:24:184:96:4:1.0</IMG>   <-- line break image as used in <LINE> above
+#                   <IMG>thaumcraft:textures/items/alumentum.png:0:0:255:255:0.0625</IMG>     <-- alumentum item icon
+
+#	Research
+tc.research_name.TS.r.arcane_coal=奥术煤炭
+tc.research_text.TS.r.arcane_coal=能重复使用的煤？
+TS.p0.arcane_coal=你已经能收集到几乎所有的材料，却总是因燃料短缺而发愁。尽管你积极的进行神秘学研究，但你仍未解决熔炉等小型设备对于燃料的需求。<BR>这种挫折感使你认为，必须有一个好的方法来解决这个问题。你的魔导书研究使你得出一个结论：总会有办法。<BR>煤和木炭非常的充足，你并不喜欢在打开设备时发现燃料被清空，并且进度条只走了一半。
+TS.p1.arcane_coal=将以下材料结合以后，<BR>* 宏伟之木板<BR>* 火之碎片<BR>* 神秘粒<BR>* 煤炭块<BR>* 源动之焰<BR>你得到了一个比煤炭烧的更久的结晶。由于加入了魔力材料，它不会在使用时消失
+TS.p2.arcane_coal=虽然大部分人都嗤之以鼻，但这只不过是一小步罢了。<BR>尽管如此，你还是稍有犹豫...<BR>因为你仿佛看到，在遥远的未来，研究结束时，你内心的扭曲，疯狂。这让你不得不犹豫。但，怎能因为一点点危险就停止对奇术的探索？尤其是对于你来说。<BR>现在，让我们来扫描一下这个新项目，看看能不能发现点什么。
+TS.p3.arcane_coal=<LINE>     如何使用<LINE>1.  放在任何燃料槽充当燃料使用。<BR>2.  把它和木棒合成制作火把<BR>3.  和煤炭/烈焰棒合成恢复耐久<BR>4.  放入熔炉的原料槽并提供热量恢复耐久
+
+tc.research_name.TS.r.arcane_coalS=强化奥术煤炭
+tc.research_text.TS.r.arcane_coalS=难以置信，可以重复使用的煤！
+#tc.research_text.TS.r.arcane_coalS=多么奇特的时代...
+TS.p0.arcane_coalS=看起来你不能在奥数煤炭失效以后继续使用，即使它仍然具有物质形态。<BR>因此你认为它还还是一块煤。但如果将它浸泡在充满要素的炼金炉中呢？让我们来看看得到了什么。<LINE>看呐！它发出的火焰是如此的猛烈。同时，在燃烧时它会吸收空气来平衡它自己。似乎只有在生物持有它时才会回复能量...多么的奇特...
+
+tc.research_name.TS.r.arcane_coal_block=奥术煤炭块
+tc.research_text.TS.r.arcane_coal_block=更多的燃料总是好的。
+TS.p0.arcane_coal_block=与更多相关的长文本总是更好。
+
+tc.research_name.TS.r.arcane_torch_dispenser=奥法火炬
+tc.research_text.TS.r.arcane_torch_dispenser=由vis制造的免费火把
+TS.p0.arcane_torch_dispenser=嗯，最后是光源，坚持做完它吧。升级你的奥术煤炭，让它发挥更大的作用。研究完强化奥术煤炭以后，你决定做一个能使你不必随身带成堆火把的工具，或许这是一项艰难的任务。<BR>有了奥法火炬，只需要占用你一格背包空间，就能不用担心火把的问题。<BR>消耗灵气场中的Air，Fire元素。<BR>记得注意灵气的平衡。
